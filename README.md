@@ -10,6 +10,16 @@ Use the git CLI to install .
 git CLI : gh repo clone B2-krunalrana/users_ahaguru
 ```
 
+## Video Link
+
+<p>
+  <a href="https://youtu.be/A0_jphtBQxk">click here </a><img src="https://media.tenor.com/tYIUpIiF-LIAAAAC/youtube-logo.gif" width="50" alt="accessibility text"> </p>
+
+
+
+
+
+
 ## requirements
 
 ```python
