@@ -1,0 +1,11 @@
+krunalrana2001
+9824085934
+
+
+
+smtp :xyxoznzpunuafvxr
+
+
+check requiment  using this coommand 
+python -m pip freeze > requirements.txt -- crate req files 
+python -m pip install -r requirements.txt

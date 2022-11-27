@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+
+</head>
+<body>
+    {% comment %} Home page 
+
+    <a href="/sign-up">Sign up </a>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> {% endcomment %}
+    
+      <div class="container">
+        <!-- Nav -->
+        <nav class="main-nav" >
+          <img src="https://www.ahaguru.com/assets/images/ahaguru_logo.png" alt="lorem" class="logo">
+    
+          <ul class="main-menu">
+            <li><a href="/login">Login</a></li>
+            <li><a href="/sign-up">SignUp</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+          </ul>
+    
+          <ul class="right-menu">
+            <li>
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- Showcase -->
+        <section class="carbon dark">
+            <div class="content">
+              <h2>Commiting To Carbon Negative</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, assumenda.</p>
+                <a href="#" class="btn">
+                  Learn More <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+          </section>
+          <br>
+    
+        <!-- Home cards 1 -->
+        <section class="home-cards">
+          <div>
+            <img src="https://www.ahaguru.com/assets/cl_images/banner2.1.jpg" alt="" height="150px">
+            <h3>New Batch start</h3>
+            <p>
+              Lorem ipsum dolor sit,  nulla delectus distinctio quae?
+            </p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div>
+            <img src="https://www.vedantu.com/seo/content-images/bc692335-2c03-4559-9cf0-dff766298eef.jpg" height="150px" alt="" />
+            <h3>Maths</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem ratione corrupti vel cum nisi, odio itaque vitae cupiditate id ducimus adipisci illum! Quos, sequi.
+            </p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div>
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/fa/6926005ea411e490ff8d4c5d4ff426/chemistry_logo.png?auto=format%2Ccompress&dpr=1" alt="" />
+            <h3>Save $150 + free controller</h3>
+            <p>
+              Buy an Xbox One X console and double your fun with a free select
+              extra controller. Starting at $349.
+            </p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div>
+            <img src="https://img.jagranjosh.com/imported/images/E/Articles/maths2.jpg" alt="" />
+            <h3>lorem tiile </h3>
+            <p>
+              Expect more. World class performance, with more privacy, more
+              productivity, and more value.
+            </p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </section>
+    
+        <!-- Xbox -->
+        <section class="xbox">
+          <div class="content">
+            <h2>Xbox Game Pass Ultimate</h2>
+            <p>Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality
+              console and PC games. Play together with friends and discover your
+              next favorite game.</p>
+              <a href="#" class="btn">
+                Join Now <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
+        </section>
+    
+        <!-- Home cards 2 -->
+                <section class="home-cards">
+                    <div>
+                        <img src="https://media0.giphy.com/media/JcZzoAcTjUZ2/giphy.gif?cid=ecf05e470mjc371n0kv543acw8jjzkubxgjgpizem3u3qbtp&rid=giphy.gif&ct=g" alt="" />
+                        <h3>lorem</h3>
+                        <p>
+                            Unleash the power of your team.
+                        </p>
+                        <a href="#">Shop Now <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div>
+                        <img src="https://media0.giphy.com/media/JcZzoAcTjUZ2/giphy.gif?cid=ecf05e470mjc371n0kv543acw8jjzkubxgjgpizem3u3qbtp&rid=giphy.gif&ct=g" alt="" />
+                        <h3>Unlock the power of learning</h3>
+                        <p>
+                            Get students future-ready with Windows 10 devices. Starting at $219.
+                        </p>
+                        <a href="#">Shop Now <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div>
+                        <img src="https://media0.giphy.com/media/JcZzoAcTjUZ2/giphy.gif?cid=ecf05e470mjc371n0kv543acw8jjzkubxgjgpizem3u3qbtp&rid=giphy.gif&ct=g" alt="" />
+                        <h3>Windows 10 Enterprise</h3>
+                        <p>
+                            Download the free 90-day evaluation for IT professionals.
+                        </p>
+                        <a href="#">Download Now <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div>
+                        <img src="https://media0.giphy.com/media/JcZzoAcTjUZ2/giphy.gif?cid=ecf05e470mjc371n0kv543acw8jjzkubxgjgpizem3u3qbtp&rid=giphy.gif&ct=g" alt="" />
+                        <h3>Explore Kubernetes</h3>
+                        <p>
+                            Learn how Kubernetes works and get started with cloud native app
+                            development today.
+                        </p>
+                        <a href="#">Get Started <i class="fas fa-chevron-right"></i></a>
+                    </div>
+          </section>
+          
+          <!-- Carbon -->
+          <section class="carbon dark">
+            <div class="content">
+              <h2>Commiting To Carbon Negative</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, assumenda.</p>
+                <a href="#" class="btn">
+                  Learn More <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+          </section>
+    
+          <!-- Follow -->
+          <section class="follow">
+            <p>Follow lorem</p>
+            <a href="https://facebook.com">
+              <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+              <img src="https://i.ibb.co/vJvbLwm/social-twitter.png" alt="Twitter">
+            </a>
+            <a href="https://linkedin.com">
+              <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin">
+            </a>
+          </section>
+        </div>
+          <!-- Links -->
+          <section class="links">
+            <div class="links-inner">
+              <ul>
+                <li><h3>lorem</h3></li>
+                <li><a href="#">Surface Pro X</a></li>
+                <li><a href="#">Surface Laptop 3</a></li>
+                <li><a href="#">Surface Pro 7</a></li>
+                <li><a href="#">Windows 10 apps</a></li>
+                <li><a href="#">Office apps</a></li>
+              </ul>
+              <ul>
+                <li><h3>lorem</h3></li>
+                <li><a href="#">Account Profile</a></li>
+                <li><a href="#">Download Center</a></li>
+                <li><a href="#">lorem Store support</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Older tracking</a></li>
+              </ul>
+              
+            </div>
+          </section>
+    
+          <!-- Footer -->
+          <footer class="footer">
+            <div class="footer-inner">
+              <div><i class="fas fa-globe fa-2x"></i> English (United States)</div>
+              <ul>
+                <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact lorem</a></li>
+                        <li><a href="#">Privacy & cookies</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Trademarks</a></li>
+                        <li><a href="#">Safety & eco</a></li>
+                        <li><a href="#">About our ads</a></li>
+                        <li><a href="#">&copy; lorem 2020</a></li>
+              </ul>
+            </div>
+          </footer>
+</body>
+</html>
